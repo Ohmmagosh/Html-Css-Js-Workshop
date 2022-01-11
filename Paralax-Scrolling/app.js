@@ -5,7 +5,7 @@
         const wishElem = document.querySelector('.wish');
         
         moonElem.style.transform = `translate(${window.scrollY * 0.7}%, ${window.scrollY * -0.7}%)`;
-        wishElem.style.transform = `translateY(${window.scrollY * -1.2}%)`;
+        wishElem.style.transform = `translateY(${window.scrollY * -0.7}%)`;
     }
 
     function run(){
