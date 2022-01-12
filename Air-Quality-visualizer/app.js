@@ -12,8 +12,7 @@
             temperature: weather.tp,
             humidity: weather.hu,
             wind: weather.ws
-        }
-        
+        } 
     }
 
     function displayAirQuality({ city, state, country, aqi, temperature, wind, humidity}){
