@@ -31,7 +31,7 @@ img{
 
     opacity: 0;
     transform: translateY(25px);
-    transition: 0.4s all linear;
+    transition: 0.5s all linear;
 }
 
 .text > h2{
