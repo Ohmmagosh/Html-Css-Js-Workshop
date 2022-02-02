@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: linear-gradient(45deg, #FFE2D1, #E1F0C4, #6BAB90, #55917F);
+    height: 100px;
+    align-items: center;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+}
+
+.item{
+    color: black;
+    background-color: transparent;
+    font-size: 18px;
+    padding: 14px 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul{
+    display: inline-block;
+}
+
+.logo a{
+    color: #fff;
+
+}
